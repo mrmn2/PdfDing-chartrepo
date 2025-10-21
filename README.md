@@ -39,7 +39,7 @@ helm -n ns upgrade my-release pdfding/pdfding
 
 To configure the Helm chart deployment, the configurable parameters can be found in `values.yaml` values file.
 Those parameters can be set via `--set` flag during installation or configured by editing the `values.yaml` directly.
-An example configuration can be found in the file [values.demo.yaml](https://github.com/mrmn2/PdfDing-chartrepo/blob/master/helm-charts/pdfding/values.demo.yaml), which contains the values used for
+An example configuration can be found in the file [values.demo.yaml](https://github.com/mrmn2/PdfDing-chartrepo/blob/main/charts/pdfding/values.demo.yaml), which contains the values used for
 deploying PdfDing's demo instance.
 
 To uninstall/delete the `my-release` deployment, run command:
