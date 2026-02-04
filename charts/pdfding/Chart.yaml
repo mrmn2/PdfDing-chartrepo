@@ -3,5 +3,5 @@ name: pdfding
 description: A Helm chart for deploying pdfding to Kubernetes
 
 type: application
-version: 0.1.14
-appVersion: v1.5.0
+version: 0.1.15
+appVersion: v1.5.1
