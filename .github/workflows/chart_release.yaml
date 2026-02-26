@@ -32,8 +32,11 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git config user.name 'github-actions[bot]'
           git add charts/pdfding/Chart.yaml
-          git commit -m "chore: update Chart.yaml for release ${{ inputs.release_tag }}"
-          git push
+          # only commit and push if there are changes
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: update Chart.yaml for release ${{ inputs.release_tag }}"
+            git push
+          fi
   chart_release:
     name: Release Chart
     runs-on: ubuntu-latest
