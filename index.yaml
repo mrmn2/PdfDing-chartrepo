@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   pdfding:
   - apiVersion: v2
+    appVersion: v1.6.3
+    created: "2026-03-14T14:34:11.619235008Z"
+    description: A Helm chart for deploying pdfding to Kubernetes
+    digest: ae731ba382b62b98e3e6f1c4413d4a1b1d3232ea8b9ec13a554e1a0023a180bf
+    name: pdfding
+    type: application
+    urls:
+    - pdfding-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
     appVersion: v1.6.2
     created: "2026-03-08T07:38:50.538407363Z"
     description: A Helm chart for deploying pdfding to Kubernetes
@@ -201,4 +211,4 @@ entries:
     urls:
     - pdfding-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-08T07:38:50.538554288Z"
+generated: "2026-03-14T14:34:11.619358169Z"
